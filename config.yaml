@@ -1,0 +1,11 @@
+search_index: /tmp/index
+whisper:
+  directories:
+    - /tmp/whisper
+
+finders:
+  - graphite_api_plugin.Finder
+
+plugin:
+  api_url: http://localhost:9000
+  path: Random values
