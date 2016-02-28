@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
 from __future__ import print_function
 
 from wsgiref.simple_server import make_server
@@ -42,8 +41,9 @@ if __name__ == u"__main__":
         host = sys.argv[1]
         port = int(sys.argv[2])
     except IndexError:
-        print(u"Data source server execution options:\n\n{0} HOST PORT\n".format(
-            sys.argv[0]))
+        print(
+            u"Data source server execution options:\n\n{0} HOST PORT\n".format(
+                sys.argv[0]))
         sys.exit(1)
 
     httpd = make_server(host, port, demo_app)
