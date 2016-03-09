@@ -17,7 +17,7 @@ Custom finder is installed into Graphite API system by adding corresponding line
 Installation
 ------------
 
-Installation instruction presumes you're using ``virtualenv`` and ``pip`` for managing Python packages. Please note, the project works on Python 2.7+ only.
+Installation instruction presumes you're using ``virtualenv`` and ``pip`` for managing Python packages. The project works on Python 2.7+ and Python 3.4.
 
 #. Download project from GitHub:
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from core import Finder
-from core import Reader
+from graphite_api_plugin.core import Finder
+from graphite_api_plugin.core import Reader
 
 """Custom finder for Graphite API."""
 
